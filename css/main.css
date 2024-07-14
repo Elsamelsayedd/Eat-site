@@ -1,0 +1,181 @@
+body {
+  overflow: hidden !important;
+}
+
+.sideBar {
+  width: 82%;
+}
+
+.sideBar-buttons {
+  width: 18%;
+}
+
+nav {
+  width: 21%;
+}
+ul {
+  cursor: pointer;
+}
+
+li a {
+  cursor: pointer;
+}
+
+.home-img .home-detailes {
+  transform: translateY(100%);
+}
+
+.home-img:hover .home-detailes {
+  transform: translateY(0%);
+}
+
+.home-detailes {
+  background-color: rgba(255, 255, 255, 0.738);
+  transition: all 0.5s;
+}
+
+.home-detailes p {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.meal {
+  cursor: pointer;
+}
+
+.bage-recipes {
+  background-color: #cff4fc;
+  color: rgb(5, 81, 96);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bage-tags {
+  background-color: #f8d7da;
+  color: rgb(132, 32, 41);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.p-details {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.catogery-size {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+input#searchName::placeholder {
+  font-weight: bold;
+  color: white;
+  opacity: 0.5;
+}
+input#searchFirstLetter::placeholder {
+  font-weight: bold;
+  color: white;
+  opacity: 0.5;
+}
+
+input#searchFirstLetter,
+input#searchName {
+  position: relative;
+  z-index: 9999999;
+}
+
+.contact-input input::placeholder {
+  color: black;
+  opacity: 0.5;
+  font-weight: bold;
+}
+li {
+  top: 300px;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.sideBar-X-icon {
+  cursor: pointer;
+}
+
+nav {
+  z-index: 99999;
+}
+
+.sideBar {
+  margin-left: -261.6px;
+}
+
+.loader {
+  color: #fff;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.3s infinite linear;
+  transform: translateZ(0);
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.99);
+  z-index: 999999;
+}
+
+@keyframes mulShdSpin {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0,
+      0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em,
+      0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em,
+      0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em,
+      0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+
+@media (max-width: 1500px) {
+  nav .navBar .sideBar {
+    margin-left: -215px;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav .navBar .sideBar {
+    margin-left: -215px;
+  }
+}
